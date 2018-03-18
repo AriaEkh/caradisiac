@@ -1,0 +1,30 @@
+{
+  "name": "caradisiac",
+  "version": "1.0.0",
+  "description": "Create an Api that gives the SUV with the best rates and the highest volume",
+  "main": "App.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AriaEkh/caradisiac.git"
+  },
+  "author": "Aria Ekhteraei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AriaEkh/caradisiac/issues"
+  },
+  "homepage": "https://github.com/AriaEkh/caradisiac#readme",
+  "dependencies": {
+    "create-react-app": "^1.5.2",
+    "elasticsearch": "^14.2.0",
+    "express": "^4.16.3",
+    "node-car-api": "git+https://github.com/92bondstreet/node-car-api.git",
+    "react": "^16.2.0"
+  }
+}
