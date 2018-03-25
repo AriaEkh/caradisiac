@@ -65,7 +65,7 @@ async function suv() {
       console.error(error)
       return;
     } else {
-      console.log('Done');
+      console.log('You can see the best result above');
     }
   });
 }
@@ -78,7 +78,7 @@ module.exports = function(app, database) {
 
   app.post('/suv', (req, res) => {
     suv();
-    res.send('You can see the best result above');
+    res.send('Check your terminal');
   });
 
 };
